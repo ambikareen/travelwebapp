@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wanderlust - Travel Web App</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Montserrat:wght@800;900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="navbar">
+                <a href="#" class="logo">Wanderlust<span>.</span></a>
+
+                <input type="checkbox" id="menu-toggle">
+                <label for="menu-toggle" class="navbar-toggle">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </label>
+
+                <ul class="nav-menu">
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link active">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#destinations" class="nav-link">Destinations</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#features" class="nav-link">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+
+        <section id="home" class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h1 class="hero-tagline">Discover Your Next Adventure</h1>
+                    <h2 class="hero-heading">Travel The World With <span>Wanderlust</span></h2>
+                    <p class="hero-description">Our app makes planning your dream vacation simple, affordable, and
+                        exciting. Find hidden gems, book experiences, and create memories that last a lifetime.</p>
+                    <a href="#contact" class="btn btn-primary">Start Your Journey</a>
+                </div>
+                <div class="hero-image">
+                    <img src="images/banner-1.jpg" alt="Travel Banner">
+                </div>
+
+            </div>
+        </section>
+
+
+        <section id="features" class="features">
+            <div class="container">
+                <h2 class="section-title">Why Choose Wanderlust?</h2>
+                <p class="section-subtitle">Our mission is to make travel accessible, enjoyable, and unforgettable for
+                    everyone.</p>
+
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-map-marked-alt"></i>
+                        </div>
+                        <h3>Smart Itinerary Planner</h3>
+                        <p>Create personalized travel plans with our AI-powered itinerary builder that suggests
+                            activities based on your preferences.</p>
+                    </div>
+
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-hand-holding-usd"></i>
+                        </div>
+                        <h3>Best Price Guarantee</h3>
+                        <p>We compare prices across hundreds of sites to ensure you get the best deals on flights,
+                            hotels, and experiences.</p>
+                    </div>
+
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <h3>Local Community Guides</h3>
+                        <p>Connect with local guides who can show you hidden gems and authentic experiences away from
+                            tourist crowds.</p>
+                    </div>
+
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <h3>Safe & Secure Travel</h3>
+                        <p>Travel with confidence using our safety features, including real-time alerts and emergency
+                            assistance.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="destinations" class="destinations">
+            <div class="container">
+                <h2 class="section-title">Popular Destinations</h2>
+                <p class="section-subtitle">Explore some of our most sought-after travel spots around the world.</p>
+
+                <div class="destinations-grid">
+                    <div class="destination-card">
+                        <div class="destination-image">
+                            <div class="image-placeholder destination-1">
+                                <i class="fas fa-mountain"></i>
+                                <p>Swiss Alps</p>
+                            </div>
+                        </div>
+                        <div class="destination-content">
+                            <h3>Swiss Alps, Switzerland</h3>
+                            <p>Experience breathtaking mountain views, charming villages, and world-class skiing in the
+                                heart of Europe's most spectacular alpine region.</p>
+                            <div class="destination-tags">
+                                <span class="tag">Mountains</span>
+                                <span class="tag">Adventure</span>
+                                <span class="tag">Winter Sports</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="destination-card">
+                        <div class="destination-image">
+                            <div class="image-placeholder destination-2">
+                                <i class="fas fa-umbrella-beach"></i>
+                                <p>Bali Beaches</p>
+                            </div>
+                        </div>
+                        <div class="destination-content">
+                            <h3>Bali, Indonesia</h3>
+                            <p>Discover tropical paradise with pristine beaches, ancient temples, vibrant culture, and
+                                some of the world's best surfing spots.</p>
+                            <div class="destination-tags">
+                                <span class="tag">Beaches</span>
+                                <span class="tag">Culture</span>
+                                <span class="tag">Wellness</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="destination-card">
+                        <div class="destination-image">
+                            <div class="image-placeholder destination-3">
+                                <i class="fas fa-landmark"></i>
+                                <p>Kyoto Temples</p>
+                            </div>
+                        </div>
+                        <div class="destination-content">
+                            <h3>Kyoto, Japan</h3>
+                            <p>Immerse yourself in Japanese tradition with stunning temples, serene gardens, authentic
+                                tea ceremonies, and seasonal cherry blossoms.</p>
+                            <div class="destination-tags">
+                                <span class="tag">Culture</span>
+                                <span class="tag">History</span>
+                                <span class="tag">Nature</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2 class="section-title">Get In Touch</h2>
+                <p class="section-subtitle">Have questions or want to sign up for updates? Send us a message!</p>
+
+                <div class="contact-wrapper">
+                    <div class="contact-info">
+                        <h3>Contact Information</h3>
+                        <div class="info-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h4>Address</h4>
+                                <p>123 Travel Street, Adventure City, AC 10001</p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <h4>Phone</h4>
+                                <p>+91 85678945</p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4>Email</h4>
+                                <p>info@wanderlustapp.com</p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-clock"></i>
+                            <div>
+                                <h4>Business Hours</h4>
+                                <p>Mon-Fri: 9am-6pm | Sat: 10am-4pm</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Full Name</label>
+                            <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Your Message</label>
+                            <textarea id="message" name="message" rows="5"
+                                placeholder="Tell us about your travel interests or questions..." required></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                        <p class="form-note">By submitting, you agree to receive travel updates from Wanderlust.</p>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <a href="#" class="logo" style="color: white;">Wanderlust<span>.</span></a>
+                    <p>Making travel dreams a reality since 2026. Your adventure starts here.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                    </div>
+                </div>
+
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#destinations">Destinations</a></li>
+                        <li><a href="#features">Features</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-links">
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Cookie Policy</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-newsletter">
+                    <h4>Stay Updated</h4>
+                    <p>Subscribe to our newsletter for the latest travel deals and tips.</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Your email address" required>
+                        <button type="submit"><i class="fas fa-paper-plane"></i></button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2026 Wanderlust Travel App. All rights reserved.</p>
+                <p>Made with <i class="fas fa-heart"></i> for travel enthusiasts worldwide</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
